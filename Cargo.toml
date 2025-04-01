@@ -1,6 +1,6 @@
 [package]
 name = "openvr_sys"
-version = "2.1.1"
+version = "2.1.2"
 edition = "2021"
 rust-version = "1.82.0"
 authors = [
@@ -30,7 +30,7 @@ maintenance = { status = "passively-maintained" }
 
 [build-dependencies]
 cmake = "0.1.52"
-bindgen = "0.71.1"
+bindgen = "=0.69.4"
 
 [lib]
 name = "openvr_sys"
